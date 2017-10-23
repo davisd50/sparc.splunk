@@ -42,6 +42,9 @@ setup(name='sparc.splunk',
           'setuptools',
           'zope.interface',
           'zope.component',
+          'zope.schema',
+          'splunk-sdk',
+          'sparc.requests'
       ],
       tests_require=TESTS_REQUIRE,
       extras_require={
